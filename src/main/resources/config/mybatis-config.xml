@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--<properties resource="jdbc.properties">
+        <property name="driver" value="${driverClassName}"></property>
+        <property name="url" value="${url}"></property>
+        <property name="username" value="${user-name}"></property>
+        <property name="password" value="${pass-word}"></property>
+    </properties>-->
+    
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    
+    <!--<typeAliases>
+        <package name="com.test.entity"></package>
+    </typeAliases>-->
+    
+    <!--<environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="DRUID">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>-->
+   <!-- <mappers>
+        <package name="com.test.dao"></package>
+    </mappers>-->
+</configuration>
