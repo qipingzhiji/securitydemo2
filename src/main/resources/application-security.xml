@@ -7,6 +7,12 @@
 
     <security:http>
         <security:http-basic></security:http-basic>
+        <security:intercept-url pattern="/webjars/**" access="permitAll()"></security:intercept-url>
+        <security:intercept-url pattern="/resources/**" access="permitAll()"></security:intercept-url>
+        <security:intercept-url pattern="/swagger-ui.html" access="permitAll()"></security:intercept-url>
+        <security:intercept-url pattern="/swagger-resources/**" access="permitAll()"></security:intercept-url>
+        <security:intercept-url pattern="/v2/api-docs" access="permitAll()"></security:intercept-url>
+        <security:intercept-url pattern="/swagger-ui.html/**" access="permitAll()"></security:intercept-url>
         <security:intercept-url pattern="/js/**" access="permitAll()"></security:intercept-url>
         <security:intercept-url pattern="/randomCode" access="permitAll()"></security:intercept-url>
 

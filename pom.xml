@@ -30,6 +30,7 @@
         <fastjson.version>1.2.60</fastjson.version>
         <logback.version>1.2.3</logback.version>
         <security-tablibs.version>5.1.6.RELEASE</security-tablibs.version>
+        <swagger2.version>2.8.0</swagger2.version>
     </properties>
 
     <dependencyManagement>
@@ -214,6 +215,18 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-taglibs</artifactId>
             <version>${security-tablibs.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger2.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger2.version}</version>
         </dependency>
 
     </dependencies>

@@ -9,7 +9,7 @@
     <context:property-placeholder location="classpath:datasource.properties"></context:property-placeholder>
 
 
-    <context:component-scan base-package="com.userLogin.service"></context:component-scan>
+    <context:component-scan base-package="com.userLogin.service,com.userLogin.config"></context:component-scan>
 
     <!--数据源配置-->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
