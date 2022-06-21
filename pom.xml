@@ -21,7 +21,7 @@
         <servlet.version>2.5</servlet.version>
         <jackon.version>2.9.8</jackon.version>
         <druid.version>1.1.20</druid.version>
-        <mysql.version>5.1.47</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <mybatis.version>3.5.2</mybatis.version>
         <mybatis.spring.version>2.0.2</mybatis.spring.version>
         <joda.version>2.10.3</joda.version>
